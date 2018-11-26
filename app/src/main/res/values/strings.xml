@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">OffTires</string>
+    <string name="editEmail">Insira seu e-mail aqui</string>
+    <string name="btnEntrar">Entrar</string>
+    <string name="txtCadastro">Cadastre-se</string>
+    <string name="edtNome">Nome</string>
+    <string name="edtSobrenome">Sobrenome</string>
+    <string name="edtCPF">CPF</string>
+    <string name="editSenha">Senha</string>
+    <string name="edtEmail">E-mail</string>
+    <string name="btnEntrar2">Entrar</string>
 </resources>
