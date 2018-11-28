@@ -6,33 +6,40 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center_horizontal"
-    tools:context=".LoginActivity">
+    tools:context=".LoginActivity"
+    android:paddingTop="30dp">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="210dp"
+        android:layout_width="250dp"
+        android:layout_height="180dp"
         android:layout_centerInParent="true"
         android:layout_marginTop="30dp"
         android:scaleType="centerInside"
         android:src="@drawable/logo" />
 
     <EditText
+        android:paddingLeft="7dp"
         android:id="@+id/edtEmail"
-        android:layout_width="270dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_width="220dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="60dp"
         android:ems="10"
         android:hint="@string/editEmail"
-        android:inputType="textEmailAddress" />
+        android:inputType="textEmailAddress"
+        android:background="@drawable/input"/>
 
     <Button
         android:id="@+id/btnEntrar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
-        android:text="@string/btnEntrar" />
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:onClick="Entrar"
+        android:text="@string/btnEntrar"
+        android:textColor="@android:color/white"
+        android:textSize="17sp" />
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -44,8 +51,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
+            android:clickable="true"
+            android:onClick="Cadastro"
+            android:textStyle="bold"
+            android:textSize="14sp"
             android:text="@string/txtCadastro" />
-
     </RelativeLayout>
 
 </LinearLayout>
